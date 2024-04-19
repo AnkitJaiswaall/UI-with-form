@@ -1,0 +1,256 @@
+.list {
+  color: white;
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  text-align: center;
+  background-color: #61909f;
+}
+hr {
+  border: 2px solid lightgray;
+  margin-top: -10px;
+  width: 100%;
+}
+.company {
+  font-weight: bold;
+  font-size: 25px;
+  color: #83a7b4;
+  padding-top: 5px;
+  padding-left: 30px;
+}
+
+.notification {
+  background-color: white;
+  color: #61909f;
+  margin-left: 850px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.notify-number {
+  color: #61909f;
+  background-color: #cbdce0;
+  border-radius: 100px;
+  display: flex;
+  margin-top: -35px;
+  margin-left: 15px;
+}
+.profile {
+  margin-left: 30px;
+  color: #61909f;
+  font-weight: bold;
+  text-align: right;
+}
+.post {
+  font-size: 12px;
+  font-weight: bold;
+  color: #cbdce0;
+  text-align: right;
+}
+.profile-pic {
+  margin-left: 15px;
+  color: #61909f;
+  font-size: 30px;
+}
+.box-container {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.box {
+  height: 120px;
+  width: 250px;
+  background-color: #61909f;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  display: flex;
+}
+.box-icon {
+  font-size: 30px;
+  margin-left: 90px;
+}
+.box-icon-1 {
+  font-size: 30px;
+  margin-left: 50px;
+}
+.number {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.box-1 {
+  height: 120px;
+  width: 250px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid #d3d3d3;
+  padding: 20px;
+  color: #61909f;
+  display: flex;
+}
+/* .box-icon-1 {
+  font-size: 30px;
+  margin-left: 90px;
+  border: 1px solid black;
+  border-radius: 70px;
+  color: #61909f;
+} */
+
+.graphs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.line-graph {
+  height: 340px;
+  width: 810px;
+  margin-left: 40px;
+  border: 2px solid #d3d3d3;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.pie-graph {
+  height: 340px;
+  width: 350px;
+  margin-right: 30px;
+  border: 2px solid #d3d3d3;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  border-bottom: 1px solid lightgray;
+  color: #61909f;
+  padding: 18px;
+  text-align: left;
+}
+th:last-child,
+td:last-child {
+  border-bottom: none;
+}
+.customer-details {
+  height: 600px;
+  width: 1250px;
+  /* padding: 50px; */
+  padding-top: 10px;
+  margin-top: 100px;
+  margin-left: 100px;
+  border: 2px solid #d3d3d3;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.table-heading {
+  font-size: 23px;
+  padding: 20px;
+  color: #61909f;
+}
+a {
+  /* text-decoration: none; */
+  color: #83a7b4;
+}
+
+.table-number {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.page {
+  color: #83a7b4;
+  font-size: 25px;
+  padding: 4px;
+}
+
+.current-page {
+  background-color: white;
+  color: #61909f;
+  font-size: 25px;
+  padding: 4px;
+}
+
+.group {
+  display: flex;
+}
+.group div {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.email-box {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.form-container {
+  height: 700px;
+  width: 1250px;
+  padding-top: 10px;
+  padding-left: 100px;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  border: 2px solid #d3d3d3;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* .form-container {
+  padding: auto;
+} */
+input[type="text"],
+input[type="email"] {
+  box-sizing: border-box;
+  border: 3px solid lightgray;
+  height: 40px;
+}
+label {
+  color: #61909f;
+}
+.add-user {
+  font-size: 25px;
+  font-weight: bold;
+  color: #61909f;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.vertical-line {
+  border-left: 2px solid #ccc;
+  height: 300px;
+  margin-top: -350px;
+  margin-right: 300px;
+}
+.form-part {
+  float: right;
+  margin-right: 100px;
+}
+input[type="file"] {
+  display: none;
+}
+
+.file-button {
+  height: 30px;
+  width: 100px;
+  margin-left: 10px;
+  text-align: center;
+  color: white;
+  background-color: #61909f;
+  border: 1px solid black;
+}
+
+button {
+  color: white;
+  background-color: #61909f;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+input[type="checkbox"] {
+  accent-color: #61909f;
+  width: 20px;
+  height: 20px;
+}
